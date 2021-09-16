@@ -390,7 +390,7 @@ aside {
     /* ---- Aside Styles ----- */
     aside .content-wrapper {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       flex-flow: row wrap;
       margin: 50px 0;
     }
@@ -404,11 +404,11 @@ aside {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-flow: column wrap;
       flex-basis: 50%;
-      text-align: center;
     }
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
 
     /* ---- Reviews Styles ---- */
@@ -459,11 +459,13 @@ aside {
       align-items: flex-start;
     }
     /* ===================== FAQ Page Tablet Styles ====================== */
+    header {
+      padding: 15px 0;
+    }
     .faq .content-wrapper {
       justify-content: space-between;
     }
     .faq-content {
-      justify-content: space-around;
       flex-basis: 45%;
     }
     .faq h2 {
@@ -486,15 +488,15 @@ aside {
     aside .content-wrapper {
         justify-content: space-around;
     }
-
+    
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width: 40%;
+        width: 30%;
     }
 
     /* ----------- Features ------------ */
     .features h2 {
-        width: 100%;
+        width: 90%;
     }
 
     .features article {
@@ -503,13 +505,13 @@ aside {
 
     /* --------------- Reviews --------------- */ 
     .reviews article div {
-        width: 40%;
+        width: 42%;
     }
 
     /* ===================== About Page Desktop Styles ======================== */
     .mission h2,
     .contact-section .content-wrapper h2 {
-        width: 100%;
+        width: 95%;
     }
 
     /* ======================= FAQ Page Desktop Styles ======================== */
