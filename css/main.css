@@ -132,11 +132,11 @@ p {
   font-size: 1.1em;
   line-height: 1.3em;	
 }
-/* 
+
 img {
- 
+  width: 100%;
 }
- 
+/*  
 figure {
  
 }*/
@@ -236,7 +236,12 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap;  
+  background-image: url('../img/jake-melara-30679-unsplash@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  
 }
 
 /* ---- Aside Styles ---- */
@@ -254,7 +259,7 @@ aside {
   justify-content: center;
   /*align-items: center;*/
   flex-flow: row wrap;
-  background-color: #1e150f;
+  background-image: url('../img/rawpixel-800820-unsplash@2x.png');
 }
 
 .features .features-items {
@@ -323,6 +328,10 @@ aside {
 .contact-content p {
   margin: 0;
 }
+/*
+.map  iframe {
+  width: 100%;
+}*/
 
 /* ------------------------- FAQ Page Stype ---------------------------- */
 .faq {
@@ -516,6 +525,9 @@ input[type=button] {
     }
 
     /* ---- Reviews Styles ---- */
+    .reviews {
+      
+    }
     .reviews article {
       display: flex;
       justify-content: space-between;
@@ -562,6 +574,9 @@ input[type=button] {
       justify-content: space-between;
       align-items: flex-start;
     }
+    .map  iframe {
+      width: 90%;
+    }
     /* ===================== FAQ Page Tablet Styles ====================== */
     header {
       padding: 15px 0;
@@ -584,6 +599,9 @@ input[type=button] {
     }
 
     /* -------- Hero Area Styles ---------- */
+    .hero-area {
+      width: 100%;
+    }
     .hero-area h1 {
         width: 60%;
     }
@@ -611,11 +629,17 @@ input[type=button] {
     .reviews article div {
         width: 42%;
     }
+    .reviews img {
+      width: 42%;
+    }
 
     /* ===================== About Page Desktop Styles ======================== */
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%;
+    }
+    .map  iframe {
+      width: 100%;
     }
 
     /* ======================= FAQ Page Desktop Styles ======================== */
