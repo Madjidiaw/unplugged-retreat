@@ -90,20 +90,23 @@ textarea {
  
 html {
 	font-size: 16px;
-  /*line-height: 1.4em;*/
+  /*line-height: 1.3em;*/
 }
  
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  text-align: left;
+  background-color: #202322;
+  color: #fff;
 }
  
 ul, 
 ol {
-	text-transform: uppercase;
+	/*text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.1em;
-  padding: 10px 0;
+  padding: 10px 0;*/
   list-style: none; 
 }
  
@@ -126,7 +129,8 @@ h4 {
  
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.1em;	
+  font-size: 1.1em;
+  line-height: 1.3em;	
 }
 /* 
 img {
@@ -135,12 +139,12 @@ img {
  
 figure {
  
-}
+}*/
 
 address {
- 
+ font-style: normal;
 }
-*/ 
+ 
 
 
 /* --------- Content Wrapper Styles -------------- */
@@ -156,6 +160,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  /*background-color: #2a423a;*/
+  background-color: #202322;
 }
 
 header {
@@ -239,6 +245,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* ---- Features Styles ---- */
@@ -247,6 +254,7 @@ aside {
   justify-content: center;
   /*align-items: center;*/
   flex-flow: row wrap;
+  background-color: #1e150f;
 }
 
 .features .features-items {
@@ -275,6 +283,7 @@ aside {
   justify-content: center;
   /*align-items: center;*/
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -287,18 +296,28 @@ aside {
 }
 
 /* --------------------- About Page Style ------------------------ */
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+}
+
+/*
 .mission-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
+}*/
 
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -311,6 +330,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -327,6 +347,33 @@ aside {
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+/* -------- Input Button Styles -------- */
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
