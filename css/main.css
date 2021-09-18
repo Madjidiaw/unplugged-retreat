@@ -300,7 +300,6 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
   flex-flow: row wrap;
   background-image: url('../img/unplugged-retreat-features.jpg');
 }
@@ -384,22 +383,6 @@ input[type=button] {
     top: 0; 
     left: 0; 
 }
-/*
-.map .content-wrapper figure {
-  width: 100%;
-  height: 0; 
-  padding-bottom: 75%; 
-  overflow: hidden;
-  position: relative;
-}
-
-.map .content-wrapper figure iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-}*/
 
 /* ------------------------- FAQ Page Stype ---------------------------- */
 .faq {
