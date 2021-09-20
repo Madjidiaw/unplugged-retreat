@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* General Styles */
+/* ----- General Styles ----- */
  
 html {
 	font-size: 16px;
@@ -97,7 +97,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
-  /*background-color: #202322;*/
   color: #e2e3ed;
 }
  
@@ -161,7 +160,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  /*background-color: #2a423a;*/
   background-color: #202322;
 }
 
@@ -260,7 +258,7 @@ footer .copyright {
   line-height: 1.2; 
 }
 
-/* ---- Aside Styles ---- */
+/* ----- Aside Styles ----- */
 aside {
   display: flex;
   justify-content: center;
@@ -273,7 +271,7 @@ aside .form{
   margin-top: 30px;
 }
 
-/* -------- Input Button Styles -------- */
+/* ----- Input Button Styles ----- */
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -296,7 +294,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/* ---- Features Styles ---- */
+/* ----- Features Styles ----- */
 .features {
   display: flex;
   justify-content: center;
@@ -325,7 +323,7 @@ input[type=button] {
   text-align: center;
 }
 
-/* ---- Reviews Styles ---- */
+/* ----- Reviews Styles ----- */
 .reviews {
   display: flex;
   justify-content: center;
@@ -504,7 +502,7 @@ input[type=button] {
 
 /* ============================== Tablet Styles ============================= */ 
   @media only screen and (min-width: 768px) {
-    /* ----- General Styles ------ */
+    /* ----- General Styles ----- */
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
@@ -557,7 +555,7 @@ input[type=button] {
       margin: 0;
     }
 
-    /* ---- Aside Styles ----- */
+    /* ----- Aside Styles ----- */
     aside .content-wrapper {
       display: flex;
       justify-content: space-between;
@@ -587,7 +585,7 @@ input[type=button] {
       width: 62%;
     }
 
-    /* ---- Reviews Styles ---- */
+    /* ----- Reviews Styles ----- */
     .reviews h2 {
       width: 85%;
     }
@@ -607,7 +605,7 @@ input[type=button] {
       width: 49%;
     }
 
-    /* ---- Footer Styles ---- */
+    /* ----- Footer Styles ----- */
     .footer .content-wrapper {
       width: 65%;
       margin: 100px 0;
